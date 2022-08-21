@@ -2,22 +2,22 @@
 A API to fetch lyrics of malagasy from [tononkira.serasera.org](https://tononkira.serasera.org/)
 
 the different endpoint are:
-#### /songs/
+#### `/songs/`
 To get list of all available songs
-#### /songs/:artist
+#### `/songs/:artist`
 To get list of availlable songs of the `:artist`
-#### /songs/:artist/:title
+#### `/songs/:artist/:title`
 To get lyrics of the specified song
-#### /search/:title
+#### `/search/:title`
 To search a specified song
-#### /artists/
+#### `/artists/`
 To get list of artist
-#### /artists/:name
+#### `/artists/:name`
 Te get info of the artist
 
-You can also use 
-#### ?from=
-To specified where to start the list
-#### ?count=
-To specified the size of the list to get
+You can also use these parameters
+#### `?from=`
+To specified where to start the list `by default 0`
+#### `?count=`
+To specified the size of the list to get `by default 20`
 
