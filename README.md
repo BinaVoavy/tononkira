@@ -1,7 +1,7 @@
 # tononkira
 A API to fetch lyrics of malagasy from [tononkira.serasera.org](https://tononkira.serasera.org/)
 
-the different endpoint are:
+The different endpoints are:
 #### `/songs/`
 To get list of all available songs
 #### `/songs/:artist`
